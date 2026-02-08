@@ -1,0 +1,7 @@
+PM10, PM2.5, NO2, SO2, NH3, and Pb are measured using 24-hour average concentrations.
+
+CO and O3 are measured using 8-hour average concentrations.
+
+AQI values are based on measured ambient concentrations and national air quality standards.
+
+Sub-index values are calculated for each pollutant based on concentration levels.

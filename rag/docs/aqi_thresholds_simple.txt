@@ -1,0 +1,7 @@
+AQI above 100 indicates air quality that may be unhealthy for sensitive groups.
+
+AQI above 200 indicates poor air quality that may affect people on prolonged exposure.
+
+AQI above 300 is considered very poor and hazardous, especially for children, elderly, and people with lung or heart disease.
+
+AQI above 400 is considered severe and may cause health effects even in healthy individuals.
