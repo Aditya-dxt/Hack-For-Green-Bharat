@@ -24,6 +24,7 @@ This module fulfills the following responsibilities from the team role assignmen
 
 ## 🧩 How This Fits Into the Overall System
 
+```text
 [ Live / Simulated Sensors ]
 ↓
 Streaming Module ←── YOU OWN THIS
@@ -31,7 +32,7 @@ Streaming Module ←── YOU OWN THIS
 [ RAG + LLM Explanation Engine ]
 ↓
 [ Alerts / API / Dashboard ]
-
+```
 
 This module acts as the **single source of truth for live environmental data**.
 
@@ -39,14 +40,15 @@ This module acts as the **single source of truth for live environmental data**.
 
 ## 📁 Module Structure
 
+```text
 streaming/
-├── init.py
+├── __init__.py
 ├── data_source.py
 ├── ingestion.py
 ├── processor.py
 ├── test_ingestion.py
 └── README.md
-
+```
 
 > Note: `.venv/` and `__pycache__/` are intentionally ignored using `.gitignore`.
 
@@ -113,6 +115,7 @@ Validates the ingestion pipeline logic.
 
 ## 🔄 End-to-End Data Flow
 
+```text
 data_source.py
 ↓
 ingestion.py
@@ -120,7 +123,7 @@ ingestion.py
 processor.py
 ↓
 Structured live data → RAG / Alerts / API / Dashboard
-
+```
 
 ---
 
