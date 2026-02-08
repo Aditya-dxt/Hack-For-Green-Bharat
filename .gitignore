@@ -2,10 +2,9 @@
 __pycache__/
 *.pyc
 
-# Virtual environment
+# Virtual env
 .venv/
+venv/
 
-# OS
-.DS_Store
-
+# VS Code
 .vscode/
