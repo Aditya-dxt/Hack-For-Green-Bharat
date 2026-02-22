@@ -1,11 +1,17 @@
+# Streaming RAG-Based Environmental Intelligence System
 
-  # Citizen Reporting Module
+## Overview
+Real-time environmental monitoring system integrating streaming, anomaly detection, and AI-powered explainable alerts.
 
-  This is a code bundle for Citizen Reporting Module. The original project is available at https://www.figma.com/design/Angoz75KM86toR4i2Y0zHe/Citizen-Reporting-Module.
+## Architecture
+Streaming Layer → Event Processing → Alert Model → RAG Engine → Alert Dispatcher → Logging
 
-  ## Running the code
+## Features
+- Real-time sensor simulation
+- Citizen report integration
+- Automated anomaly detection
+- RAG-based AI explanation
+- Logging & audit trail
 
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+## How to Run
+python main.py

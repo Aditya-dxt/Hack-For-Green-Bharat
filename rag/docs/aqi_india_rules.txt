@@ -1,0 +1,16 @@
+Air Quality Index (AQI) is a tool to communicate air quality in simple and understandable terms.
+
+AQI converts complex air pollution data into a single number, category, and description.
+
+There are six AQI categories:
+Good,
+Satisfactory,
+Moderately Polluted,
+Poor,
+Very Poor,
+Severe.
+
+AQI is calculated using eight pollutants:
+PM10, PM2.5, NO2, SO2, CO, O3, NH3, and Pb.
+
+The worst sub-index among all pollutants determines the overall AQI value.
