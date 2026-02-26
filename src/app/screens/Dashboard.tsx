@@ -55,7 +55,7 @@ export default function Dashboard() {
   const fetchUserReports = async () => {
     try {
       // Replace with your actual API endpoint
-      const response = await fetch('http://localhost:8000/api/user/reports');
+      const response = await fetch('https://hack-for-green-bharat-1-h6qr.onrender.com/api/user/reports');
       
       if (response.ok) {
         const data = await response.json();

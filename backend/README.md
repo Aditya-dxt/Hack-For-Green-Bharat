@@ -62,13 +62,13 @@ python app.py
 uvicorn app:app --reload --host 0.0.0.0 --port 8000
 ```
 
-The server will start at: `http://localhost:8000`
+The server will start at: `https://hack-for-green-bharat-1-h6qr.onrender.com`
 
 ### API Documentation
 
 Once running, visit:
-- **Interactive API Docs:** http://localhost:8000/docs
-- **Alternative Docs:** http://localhost:8000/redoc
+- **Interactive API Docs:** https://hack-for-green-bharat-1-h6qr.onrender.com/docs
+- **Alternative Docs:** https://hack-for-green-bharat-1-h6qr.onrender.com/redoc
 
 ## 📡 API Endpoints
 
@@ -241,7 +241,7 @@ const stats = getCityStats('Delhi');
 
 **After (using real API):**
 ```typescript
-const stats = await fetch('http://localhost:8000/api/aqi/current?city=Delhi')
+const stats = await fetch('https://hack-for-green-bharat-1-h6qr.onrender.com/api/aqi/current?city=Delhi')
   .then(res => res.json());
 ```
 
@@ -251,7 +251,7 @@ const stats = await fetch('http://localhost:8000/api/aqi/current?city=Delhi')
 // hooks/useAQI.ts
 import { useState, useEffect } from 'react';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = 'https://hack-for-green-bharat-1-h6qr.onrender.com/api';
 
 export function useCurrentAQI(city: string) {
   const [data, setData] = useState(null);
@@ -458,9 +458,9 @@ MIT License - See LICENSE file for details
 
 ### Before Demo
 1. Start server: `python app.py`
-2. Verify health: `curl http://localhost:8000`
-3. Test one endpoint: `curl http://localhost:8000/api/aqi/current?city=Delhi`
-4. Open API docs: http://localhost:8000/docs
+2. Verify health: `curl https://hack-for-green-bharat-1-h6qr.onrender.com`
+3. Test one endpoint: `curl https://hack-for-green-bharat-1-h6qr.onrender.com/api/aqi/current?city=Delhi`
+4. Open API docs: https://hack-for-green-bharat-1-h6qr.onrender.com/docs
 
 ### During Demo
 1. Show real-time AQI updates

@@ -10,7 +10,7 @@ from PIL import Image
 import base64
 
 # Configuration
-BASE_URL = "http://localhost:8000"
+BASE_URL = "https://hack-for-green-bharat-1-h6qr.onrender.com"
 
 def test_health_check():
     """Test 1: Health check endpoint"""

@@ -20,7 +20,7 @@ Create `src/config/api.ts`:
 ```typescript
 // API Configuration
 export const API_CONFIG = {
-  BASE_URL: import.meta.env.VITE_API_URL || 'http://localhost:8000',
+  BASE_URL: import.meta.env.VITE_API_URL || 'https://hack-for-green-bharat-1-h6qr.onrender.com',
   ENDPOINTS: {
     AQI_CURRENT: '/api/aqi/current',
     AQI_HISTORY: '/api/aqi/history',
@@ -38,7 +38,7 @@ export const API_CONFIG = {
 Create `.env.local` in your frontend root:
 
 ```env
-VITE_API_URL=http://localhost:8000
+VITE_API_URL=https://hack-for-green-bharat-1-h6qr.onrender.com
 ```
 
 For production:

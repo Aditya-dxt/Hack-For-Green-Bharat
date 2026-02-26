@@ -29,7 +29,7 @@ export function CityLeaderboard() {
   useEffect(() => {
     setLoading(true);
     // ✅ FIXED: Changed endpoint from /leaderboard to /cities
-    fetch("http://localhost:8000/api/cities")
+    fetch("https://hack-for-green-bharat-1-h6qr.onrender.com/api/cities")
       .then(res => {
         if (!res.ok) throw new Error('Failed to fetch cities');
         return res.json();

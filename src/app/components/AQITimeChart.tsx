@@ -22,7 +22,7 @@ export function AQITimeChart() {
     setLoading(true);
     setError(null);
     
-    fetch(`http://localhost:8000/api/aqi/history?city=Delhi&range=${range}`)
+    fetch(`https://hack-for-green-bharat-1-h6qr.onrender.com/api/aqi/history?city=Delhi&range=${range}`)
       .then(res => {
         if (!res.ok) throw new Error('Failed to fetch AQI history');
         return res.json();

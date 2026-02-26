@@ -118,7 +118,7 @@ export default function Report() {
       const formData = new FormData();
       formData.append('file', file);
       
-      const response = await fetch('http://localhost:8000/api/report/analyze-image', {
+      const response = await fetch('https://hack-for-green-bharat-1-h6qr.onrender.com/api/report/analyze-image', {
         method: 'POST',
         body: formData
       });
@@ -173,7 +173,7 @@ export default function Report() {
       };
       
       // ✅ NEW: Submit to backend
-      const response = await fetch('http://localhost:8000/api/report/submit', {
+      const response = await fetch('https://hack-for-green-bharat-1-h6qr.onrender.com/api/report/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

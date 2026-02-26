@@ -18,7 +18,7 @@ export default function Analytics() {
 
   useEffect(() => {
     // Fetch AI insights from backend
-    fetch("http://localhost:8000/api/insights/aqi?city=Delhi")
+    fetch("https://hack-for-green-bharat-1-h6qr.onrender.com/api/insights/aqi?city=Delhi")
       .then(res => res.json())
       .then(data => {
         setInsight(data.insight);

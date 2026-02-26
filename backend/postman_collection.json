@@ -7,7 +7,7 @@
   "variable": [
     {
       "key": "baseUrl",
-      "value": "http://localhost:8000",
+      "value": "https://hack-for-green-bharat-1-h6qr.onrender.com",
       "type": "string"
     },
     {

@@ -77,7 +77,7 @@ export default function Home() {
     const fetchCityData = async () => {
       setLoading(true);
       try {
-        const response = await fetch(`http://localhost:8000/api/current/${currentCity}`);
+        const response = await fetch(`https://hack-for-green-bharat-1-h6qr.onrender.com/api/current/${currentCity}`);
         if (response.ok) {
           const data = await response.json();
           setCityData(data);

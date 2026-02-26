@@ -61,8 +61,8 @@ python app.py
 You should see:
 ```
 🌍 Starting Environmental Intelligence API...
-📡 Endpoints available at http://localhost:8000
-📚 API Documentation: http://localhost:8000/docs
+📡 Endpoints available at https://hack-for-green-bharat-1-h6qr.onrender.com
+📚 API Documentation: https://hack-for-green-bharat-1-h6qr.onrender.com/docs
 INFO:     Started server process
 INFO:     Uvicorn running on http://0.0.0.0:8000
 ```
@@ -70,7 +70,7 @@ INFO:     Uvicorn running on http://0.0.0.0:8000
 ## Step 5: Verify It's Working
 
 ### Option A: Open in Browser
-Visit: http://localhost:8000
+Visit: https://hack-for-green-bharat-1-h6qr.onrender.com
 
 You should see:
 ```json
@@ -84,11 +84,11 @@ You should see:
 
 ### Option B: Use curl (in new terminal)
 ```bash
-curl http://localhost:8000
+curl https://hack-for-green-bharat-1-h6qr.onrender.com
 ```
 
 ### Option C: Interactive Docs
-Visit: http://localhost:8000/docs
+Visit: https://hack-for-green-bharat-1-h6qr.onrender.com/docs
 
 You'll see a beautiful interactive API documentation where you can test all endpoints!
 
@@ -97,11 +97,11 @@ You'll see a beautiful interactive API documentation where you can test all endp
 Try getting AQI for Delhi:
 
 ### Using Browser:
-http://localhost:8000/api/aqi/current?city=Delhi
+https://hack-for-green-bharat-1-h6qr.onrender.com/api/aqi/current?city=Delhi
 
 ### Using curl:
 ```bash
-curl "http://localhost:8000/api/aqi/current?city=Delhi"
+curl "https://hack-for-green-bharat-1-h6qr.onrender.com/api/aqi/current?city=Delhi"
 ```
 
 ### Expected Response:
@@ -124,7 +124,7 @@ Your backend is now running and ready to connect to your frontend.
 ## Next Steps
 
 ### 1. Explore the API
-Visit http://localhost:8000/docs and try different endpoints:
+Visit https://hack-for-green-bharat-1-h6qr.onrender.com/docs and try different endpoints:
 - Get AQI for different cities
 - Upload test images for analysis
 - Submit test reports
@@ -202,7 +202,7 @@ deactivate
 ## API Testing Tools
 
 ### 1. Built-in Swagger UI
-http://localhost:8000/docs
+https://hack-for-green-bharat-1-h6qr.onrender.com/docs
 - Interactive testing
 - See request/response schemas
 - No additional tools needed
@@ -228,7 +228,7 @@ See [README.md](README.md) for:
 
 1. Check [README.md](README.md) for detailed documentation
 2. Check [FRONTEND_INTEGRATION.md](FRONTEND_INTEGRATION.md) for frontend setup
-3. Visit http://localhost:8000/docs for API reference
+3. Visit https://hack-for-green-bharat-1-h6qr.onrender.com/docs for API reference
 4. Check server logs for error messages
 
 ---

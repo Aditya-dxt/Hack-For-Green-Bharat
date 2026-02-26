@@ -38,7 +38,7 @@ export default function Status() {
     // ✅ NEW: Poll backend for real validation status
     const checkStatus = async () => {
       try {
-        const response = await fetch(`http://localhost:8000/api/report/status/${reportId}`);
+        const response = await fetch(`https://hack-for-green-bharat-1-h6qr.onrender.com/api/report/status/${reportId}`);
         
         if (response.ok) {
           const data: ReportStatusResponse = await response.json();

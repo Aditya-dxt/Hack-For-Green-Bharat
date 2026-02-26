@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 // API Configuration
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://hack-for-green-bharat-1-h6qr.onrender.com';
 
 // ============================================================================
 // TYPE DEFINITIONS
