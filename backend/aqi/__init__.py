@@ -1,3 +1,3 @@
-from .stream import AQIStreamSimulator
+from .stream import AQIStream
 
-__all__ = ['AQIStreamSimulator']
+__all__ = ["AQIStream"]
